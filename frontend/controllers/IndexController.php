@@ -45,8 +45,10 @@ class IndexController extends Controller
      */
     public function actionIndex()
     {
-        echo "!!!!MY TEST INDEX ACTION!!!!";
-        exit;
-    }
+        //echo "!!!!MY TEST INDEX ACTION!!!!";
+        //exit;
 
+        return $this->redirect('teacher');
+    }
+    
 }
